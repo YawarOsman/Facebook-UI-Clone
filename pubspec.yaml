@@ -1,0 +1,185 @@
+name: facebookk
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  intl: ^0.17.0
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^9.1.0
+  flutter_reaction_button: ^1.0.8
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  flutter_staggered_grid_view: ^0.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/profile.jpg
+    - assets/requests/1.jpg
+    - assets/requests/2.jpg
+    - assets/requests/3.jpg
+    - assets/requests/4.jpg
+    - assets/requests/5.jpg
+    - assets/requests/6.jpg
+    - assets/requests/7.jpg
+    - assets/requests/8.jpg
+    - assets/requests/9.jpg
+    - assets/requests/10.jpg
+    - assets/requests/11.jpg
+    - assets/requests/12.jpg
+    - assets/posts/p1.jpg
+    - assets/posts/p2.jpg
+    - assets/posts/p3.jpg
+    - assets/posts/p4.jpg
+    - assets/posts/p5.jpg
+    - assets/posts/p6.jpg
+    - assets/posts/p7.jpg
+    - assets/posts/p8.jpg
+    - assets/posts/p9.jpg
+    - assets/posts/p10.jpg
+    - assets/posts/p11.jpg
+    - assets/posts/p12.jpg
+    - assets/posts/p13.jpg
+    - assets/posts/p14.jpg
+    - assets/posts/p15.jpg
+    - assets/sales/11.jpg
+    - assets/sales/22.jpg
+    - assets/sales/33.jpg
+    - assets/sales/44.jpg
+    - assets/sales/55.jpg
+    - assets/sales/66.jpg
+    - assets/sales/77.jpg
+    - assets/sales/88.jpg
+    - assets/sales/99.jpg
+    - assets/sales/100.jpg
+    - assets/sales/111.jpg
+    - assets/sales/200.jpg
+    - assets/sales/222.jpg
+    - assets/sales/333.jpg
+    - assets/sales/444.jpg
+    - assets/sales/555.jpg
+    - assets/sales/666.jpg
+    - assets/sales/777.jpg
+    - assets/sales/888.jpg
+    - assets/sales/999.jpg
+    - assets/menu/events.png
+    - assets/menu/covid.png
+    - assets/menu/friends.png
+    - assets/menu/gaming.png
+    - assets/menu/groups.png
+    - assets/menu/jobs.png
+    - assets/menu/marketplace.png
+    - assets/menu/memories.png
+    - assets/menu/pages.png
+    - assets/menu/saved.png
+    - assets/ipad3.jpg
+    - assets/menu/add.png
+    - assets/menu/ads.png
+    - assets/menu/community.png
+    - assets/menu/fundraisers.png
+    - assets/menu/favourities.png
+    - assets/menu/health.png
+    - assets/menu/kids.png
+    - assets/menu/live.png
+    - assets/menu/offers.png
+    - assets/menu/pay.png
+    - assets/menu/watch.png
+    - assets/menu/weather.png
+    - assets/screen.png
+    - assets/lk.png
+    - assets/dl.png
+    - assets/lf.png
+    - assets/share.png
+    - assets/reactions/liked.png
+    - assets/reactions/haha.png
+    - assets/reactions/angry.png
+    - assets/reactions/love.png
+    - assets/reactions/sad.png
+    - assets/reactions/woo.png
+    - assets/reactions/care.png
+    - assets/home.png
+    - assets/home_outlined.png
+    - assets/person_outlined.png
+    - assets/person.png
+    - assets/marketplace_outlined.png
+    - assets/Marketplace.png
+    - assets/Notification.png
+    - assets/notification_outlined.png
+    - assets/humburger.png
+    - assets/humburger_outlined.png
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: klavika
+      fonts:
+        - asset: fonts/klavika-bold.otf
+    - family: messenger
+      fonts:
+        - asset: assets/Messenger.ttf
+
+    - family: music
+      fonts:
+        - asset: assets/Music.ttf
+
+    - family: reaction
+      fonts:
+        - asset: assets/Reaction.ttf
+
+    - family: share
+      fonts:
+        - asset: assets/Share.ttf
+
+    - family: comment
+      fonts:
+        - asset: assets/Comment.ttf
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
